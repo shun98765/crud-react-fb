@@ -20,8 +20,8 @@ const UserProvider = (props) => {
     }
 
     //Salir de Firebase
-    const signOutUser = (email, password) =>{
-        signInOut(auth)
+    const signOutUser = () =>{
+        signOut(auth)
     }
 
     //Mantener usuario presente en el sitio

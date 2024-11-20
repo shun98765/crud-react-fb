@@ -6,7 +6,7 @@ import Home from './routes/Home'
 import { UserContext } from './context/UserProvider'
 import Navbar from './componentes/Navbar'
 import RequireAuth from './componentes/RequireAuth'
-import Register from './componentes/Register'
+import Register from './routes/Register'
 
 function App() {
   const [count, setCount] = useState(0)
